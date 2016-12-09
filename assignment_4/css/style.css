@@ -1,0 +1,95 @@
+/* TYPE*/
+
+@font-face {
+  font-family: 'calibre';
+  src: url('../fonts/calibre-regular.ttf') format('truetype'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  url('../fonts/calibre-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3â€”5 */
+}
+
+@font-face {
+  font-family: 'calibre-light';
+  src: url('../fonts/calibre-light.ttf') format('truetype'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  url('../fonts/calibre-light.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3â€”5 */
+}
+
+@font-face {
+  font-family: 'calibre-bold';
+  src: url('../fonts/calibre-bold.ttf') format('truetype'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  url('../fonts/calibre-bold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3â€”5 */
+}
+
+/* FADE IN*/
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+body{
+  font-family: 'calibre-light';
+  background-color: black;
+  color: white;
+  font-size: 19px;
+  letter-spacing: 1.2px;
+  -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2.5s; /* Firefox < 16 */
+  -ms-animation: fadein 2.5s; /* Internet Explorer */
+  -o-animation: fadein 2.5s; /* Opera < 12.1 */
+  animation: fadein 2.5s;
+  }
+
+
+a {
+    color: #F0F8FF;
+    text-decoration: none;
+  }
+a:hover {
+    opacity: 0.80;
+
+  }
+
+#left {
+    position: fixed;
+    font-weight: normal;
+    top: 20;
+    left: 20;
+  }
+
+#clock {
+    position: fixed;
+    font-weight: normal;
+    top: 20;
+    left: 425;
+    text-align: left;
+  }
+
+#layer_1 {
+
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  left: 0;
+  top: 225px;
+  right: 0;
+
+}
