@@ -80,7 +80,7 @@ a:hover {
     text-align: left;
   }
 
-#layer_1 {
+#flag {
 
   width: 180px;
   height: 180px;
@@ -91,5 +91,6 @@ a:hover {
   left: 0;
   top: 225px;
   right: 0;
+  z-index: -1;
 
 }
