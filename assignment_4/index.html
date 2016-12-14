@@ -3,40 +3,31 @@
 	<meta charset="utf-16">
 	<title>917 WINDSPEED</title>
 	<link rel="stylesheet" href="css/style.css">
-	<script type="text/javascript" src="js/jq.js"></script>
-	<script type="text/javascript" src="js/clock.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-	<script type="text/javascript" src="js/paper.js"></script>
-	<script type="text/paperscript" canvas="myCanvas" data-paper-ignore="true">
-	
-	
-	project.importSVG(document.getElementById('flag'));
-	
-	$("#flag").click(function() {
-		console.log("YEAH");
-});
-
-
-
-	
-	</script>
 </head>
 	
 	<body>
+		
 		<body onload="setInterval('updateClock()', 200);">
+			
+		<div id="clock">
+		</div>
 
 		<div id="left" class="titles">
-				<a href="#">*917 Windspeed*</a>
-			</div>
-
-		<div id="clock"></div>
-
-		<svg id="flag" data-name="layer 1" xmlns="http://www.w3.org/2000/svg" height="180" width"180" viewBox="0 0 256.16 333.2"><defs>
-		<style>.cls-1{fill:#fff;}</style></defs><title>flag</title><path class="cls-1" d="M64,20.23H47.19L46.92,8.4h60.25V20.23H90.38V26q56.42-9.08,104.84,25,56.13,30.54,107.86,16V235.67q-63.56,16.51-120.51-11.14T85.44,214.21V341.6H64ZM86,193q37.16-11.83,90,13.9T288,223V86.54q-48.16,9.08-100.43-19Q148.16,32.06,90.38,41.42L86,40.87Z" transform="translate(-46.92 -8.4)"/></svg>
-
+		<a href="#">*917 Windspeed*</a>
+		</div>
 		
-		
-		<script src="js/weather.js"></script>
-		<canvas id="myCanvas" resize></canvas>
-	</body>
+		<div id ="flag" class="invisible"></div>
+		<div id ="flag2" class="invisible"></div>
+		<div id ="flag3" class="invisible"></div>
+		<div id ="flag4" class="invisible"></div>
+	
+<!-- CLOCK & WEATHER -->
+
+<script type="text/javascript" src="js/jq.js"></script>
+<script type="text/javascript" src="js/clock.js"></script>
+<script src="js/weather.js"></script>
+
+
+</body>
 </html>

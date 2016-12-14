@@ -11,12 +11,16 @@ function getWeather() {
         } else {
             console.log(data.query.results);
             console.log(data.query.results.channel.wind.speed);
-            console.log(data.query.results.channel.wind.direction);
             windSpeed = parseInt(data.query.results.channel.wind.speed);
-            windDirection = parseInt(data.query.results.channel.wind.direction);
         }
     });
 
 };
 
 getWeather();
+
+
+if (windSpeed <= 20){
+    $("#flag").removeClass('invisible');
+};
+
