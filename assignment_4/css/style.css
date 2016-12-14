@@ -89,7 +89,7 @@ a:hover {
 #flag {
 position: absolute;
 top: 200px;
-left: 575px;
+left: 580px;
 width: 260px;
 height: 260px;
 background-repeat: no-repeat;
@@ -100,7 +100,7 @@ z-index: -1;
 #flag2 {
 position: absolute;
 top: 200px;
-left: 575px;
+left: 580px;
 width: 260px;
 height: 260px;
 background-repeat: no-repeat;
@@ -111,7 +111,7 @@ z-index: -2;
 #flag3 {
 position: absolute;
 top: 200px;
-left: 575px;
+left: 580px;
 width: 260px;
 height: 260px;
 background-repeat: no-repeat;
@@ -122,7 +122,7 @@ z-index: -3;
 #flag4 {
 position: absolute;
 top: 200px;
-left: 575px;
+left: 580px;
 width: 260px;
 height: 260px;
 background-repeat: no-repeat;

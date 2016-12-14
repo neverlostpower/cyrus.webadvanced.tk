@@ -1,5 +1,4 @@
 var windSpeed;
-var windDirection;
 
 function getWeather() {
     var location = "new york, ny";
@@ -11,8 +10,22 @@ function getWeather() {
         } else {
             console.log(data.query.results);
             console.log(data.query.results.channel.wind.speed);
-            windSpeed = parseInt(data.query.results.channel.wind.speed);
-        }
+            windSpeed = parseInt(data.query.results.
+            channel.wind.speed);
+            }
+            
+            if (windSpeed <= 10) {
+            $("#flag").toggleClass('invisible');
+        } else if (windSpeed > 10 && windSpeed <= 15) {
+            $("#flag2").toggleClass('invisible');
+        } else if (windSpeed > 15 && windSpeed <= 20) {
+            $("#flag3").toggleClass('invisible');
+        } else if (windSpeed > 20) {
+            $("#flag4").toggleClass('invisible');
+      
+
+    }
+
     });
 
 };
@@ -20,7 +33,4 @@ function getWeather() {
 getWeather();
 
 
-if (windSpeed <= 20){
-    $("#flag").removeClass('invisible');
-};
 

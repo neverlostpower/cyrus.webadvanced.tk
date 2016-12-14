@@ -3,13 +3,12 @@
 	<meta charset="utf-16">
 	<title>917 WINDSPEED</title>
 	<link rel="stylesheet" href="css/style.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
 	
 	<body>
 		
 		<body onload="setInterval('updateClock()', 200);">
-			
+		
 		<div id="clock">
 		</div>
 
@@ -17,15 +16,23 @@
 		<a href="#">*917 Windspeed*</a>
 		</div>
 		
+		<div id="audio" src="sound/wind.mp3" 
+		controls hidden autoplay></div>
+		
 		<div id ="flag" class="invisible"></div>
 		<div id ="flag2" class="invisible"></div>
 		<div id ="flag3" class="invisible"></div>
 		<div id ="flag4" class="invisible"></div>
+		
+		
+		
+
 	
 <!-- CLOCK & WEATHER -->
 
 <script type="text/javascript" src="js/jq.js"></script>
 <script type="text/javascript" src="js/clock.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="js/weather.js"></script>
 
 
