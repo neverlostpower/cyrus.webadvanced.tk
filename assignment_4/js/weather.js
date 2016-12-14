@@ -16,21 +16,20 @@ function getWeather() {
             
             if (windSpeed <= 10) {
             $("#flag").toggleClass('invisible');
+            document.getElementById("myAudio").volume = 0.2;
         } else if (windSpeed > 10 && windSpeed <= 15) {
             $("#flag2").toggleClass('invisible');
+            document.getElementById("myAudio").volume = 0.4;
         } else if (windSpeed > 15 && windSpeed <= 20) {
             $("#flag3").toggleClass('invisible');
+            document.getElementById("myAudio").volume = 0.7;
         } else if (windSpeed > 20) {
             $("#flag4").toggleClass('invisible');
-      
-
-    }
+            document.getElementById("myAudio").volume = 0.9;
+     }
 
     });
 
 };
 
 getWeather();
-
-
-
