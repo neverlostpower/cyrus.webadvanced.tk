@@ -99,7 +99,7 @@ a:hover {
 
 #flag {
 
-padding: 10px;
+padding: 20px;
 position: absolute;
 top: 46%;
 left: 52%;
@@ -112,7 +112,7 @@ z-index: -1;
 }
 
 #flag2 {
-padding: 10px;
+padding: 20px;
 position: absolute;
 top: 46%;
 left: 52%;
@@ -125,7 +125,7 @@ z-index: -2;
 }
 
 #flag3 {
-padding: 10px;
+padding: 20px;
 position: absolute;
 top: 46%;
 left: 52%;
@@ -138,7 +138,7 @@ z-index: -3;
 }
 
 #flag4 {
-padding: 10px;
+padding: 20px;
 position: absolute;
 top: 46%;
 left: 52%;
