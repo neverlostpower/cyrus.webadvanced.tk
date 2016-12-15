@@ -42,11 +42,12 @@
 }
 
 
-body{
+body {
   font-family: 'calibre-light';
   background-color: black;
   color: white;
   font-size: 19px;
+    padding: 20px;
   letter-spacing: 1.2px;
   -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 2.5s; /* Firefox < 16 */
